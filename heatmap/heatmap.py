@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3.11
 
 from PIL import Image, ImageDraw, ImageFont
 import os, sys, gzip, math, argparse, colorsys, datetime
@@ -622,4 +622,3 @@ create_labels(args, img)
 
 print("saving")
 img.save(args.output_path)
-
