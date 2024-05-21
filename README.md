@@ -1,4 +1,4 @@
-Steps to configure heatmap.py on macOS:
+Steps to configure heatmap.py on macOS (Python 3.12 does not work):
 
 ```
 brew install python@3.11
