@@ -8,7 +8,7 @@ cd heatmap
 wget https://raw.githubusercontent.com/kalem-dev/rtl-sdr-misc/master/heatmap/heatmap.py
 wget https://raw.githubusercontent.com/kalem-dev/rtl-sdr-misc/master/heatmap/requirements.txt
 source bin/activate
-pip install -r requirements.txt
+pip3.11 install -r requirements.txt
 ```
 
 Then to generate a heatmap:
